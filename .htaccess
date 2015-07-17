@@ -1,0 +1,15 @@
+# Begin Muse Generated redirects
+# End Muse Generated redirects
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule	^connect/?$	connect.html [L]
+RewriteRule	^contact/?$	connect.html [L]
+RewriteRule	^about/?$	about.html [L]
+RewriteRule	^info/?$	about.html [L]
+RewriteRule	^downloads/?$	download.html [L]
+RewriteRule	^download/?$	download.html [L]
+RewriteRule	^world/?$	download.html [L]
+RewriteRule	^hosting/?$	hosting.html [L]
+RewriteRule	^iwannaseeeveryonethatplaysontheserver/?$	members.html [L]
+RewriteRule	^home/?$	index.html [L]
