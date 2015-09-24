@@ -1,0 +1,60 @@
+.columnWrapper {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.column1 {
+	width: 50%;
+}
+
+.column2 {
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+}
+
+a.playerName {
+	font-size: 32px;
+	color: #829d8a;
+	text-decoration: none;
+	transition: color 400ms;
+}
+
+a.playerName:hover {
+	color: #545a5c;
+}
+
+img.playerHead {
+	opacity: 0.75;
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+	border: 3px solid transparent;
+	transition: opacity 400ms, border 400ms;
+}
+
+img.playerHead:hover {
+	opacity: 1;
+	border: 3px solid #829d8a;
+}
+
+.playerSocial {
+	padding-top: 5px;
+	padding-bottom: 30px;
+	max-height: 50px;
+}
+
+.playerSocial > a > img {
+	height: 50px;
+	width: 50px;
+	border: 3px solid transparent;
+	transition: border-radius 400ms, border 400ms;
+}
+
+.playerSocial > a > img:hover {
+	border-radius: 20%;
+	border: 3px solid #829d8a;
+}
+	

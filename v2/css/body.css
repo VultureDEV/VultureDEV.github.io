@@ -19,7 +19,6 @@ body {
 	border-radius: 10px;
 	margin: 280px 10% 100px 10%;
 	padding: 20px 50px;
-	height: 500px;
 	/*===*/
 	font-size: 20px;
 }
@@ -29,26 +28,50 @@ body {
 }
 
 h2 {
-	font-size: 35px;
-	font-weight: 700;
 	margin: 0;
 	text-align: center;
-	color: #829d8a;
 	position: relative;
 	top: 50px;
 	opacity: 0;
 	transition: opacity 1s ease 1s, top 1s ease 1s;
+	/*===*/
+	font-size: 35px;
+	font-weight: 700;
+	color: #829d8a;
 }
 
 .divider {
 	height: 1px;
 	width: 100%;
 	background: #829d8a;
+	margin: 30px 0;
 }
 
 #h2Divider {
-	width: 0;
+	width: 1px;
 	transition: width 1s;
 	margin: 0 auto;
 }
-	
+
+.bannerImage {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.bodyLink {
+	color: #829d8a;
+	text-decoration: none;
+	transition: color 400ms;
+}
+
+.bodyLink:hover {
+	color: #545a5c;
+}
+
+.imgDesc {
+	text-align: center;
+	font-size: 14px;
+	font-style: oblique;
+	color: #545a5c;
+	margin: 0;
+}
