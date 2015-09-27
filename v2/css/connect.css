@@ -1,0 +1,19 @@
+.teamspeakLogo {
+	width: 10%;
+}
+
+.defaultCursor {
+	cursor: default;
+}
+
+.email {
+	height: 10%;
+	width: 10%;
+	border: 3px solid transparent;
+	transition: border-radius 400ms, border 400ms;
+}
+
+.email:hover {
+	border-radius: 20%;
+	border: 3px solid #829d8a;
+}
