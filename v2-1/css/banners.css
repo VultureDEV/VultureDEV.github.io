@@ -1,21 +1,21 @@
-#adContent > p {
+#bannerContent > p {
 	font-weight: 200;
 }
 
-img.teamspeakAd {
+img.teamspeakBanner {
 	width: 50%;
 	margin-top: 50px;
 }
 
-p.teamspeakAd {
+p.teamspeakBanner {
 	font-size: 18px;
 }
 
-img.hostingAd {
+img.hostingBanner {
 	width: 60%;
 	margin-top: 50px;
 }
 
-p.hostingAd {
+p.hostingBanner {
 	font-size: 22px;
 }

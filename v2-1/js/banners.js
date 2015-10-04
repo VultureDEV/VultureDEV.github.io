@@ -1,19 +1,19 @@
-var adsOff = "false";
+var bannersOff = "false";
 
-if (adsOff == "true") {
-	document.getElementById("adSpace").style.display = "none";
+if (bannersOff == "true") {
+	document.getElementById("bannerSpace").style.display = "none";
 }
 
-var adID = Math.floor((Math.random() * 2) + 1);
+var bannerID = Math.floor((Math.random() * 2) + 1);
 
 //TeamSpeak
-if (adID == 1) {
-	document.getElementById("adLink").href = level + "connect.html";
-	document.getElementById("adContent").innerHTML = "<img src='" + level + "files/connect/ts.png' alt='TeamSpeak Logo' class='teamspeakAd'><p class='teamspeakAd'>Join our TeamSpeak!</p>";
+if (bannerID == 1) {
+	document.getElementById("bannerLink").href = level + "connect.html";
+	document.getElementById("bannerContent").innerHTML = "<img src='" + level + "files/connect/ts.png' alt='TeamSpeak Logo' class='teamspeakBanner'><p class='teamspeakBanner'>Join our TeamSpeak!</p>";
 }
 
 //Hosting
-if (adID == 2) {
-	document.getElementById("adLink").href = level + "hosting.html";
-	document.getElementById("adContent").innerHTML = "<img src='" + level + "files/hosting/ph.png' alt='ProvisionHost Logo' class='hostingAd'><p class='hostingAd'>Server Discounts!</p>";
+if (bannerID == 2) {
+	document.getElementById("bannerLink").href = level + "hosting.html";
+	document.getElementById("bannerContent").innerHTML = "<img src='" + level + "files/hosting/ph.png' alt='ProvisionHost Logo' class='hostingBanner'><p class='hostingBanner'>Server Discounts!</p>";
 }

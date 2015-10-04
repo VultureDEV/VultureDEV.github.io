@@ -1,4 +1,4 @@
-#adSpace {
+#bannerSpace {
 	height: 300px;
 	width: 250px;
 	position: fixed;
@@ -12,7 +12,7 @@
 	transition: right 1s;
 }
 
-#adSpaceDisplay {
+#bannerSpaceDisplay {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -48,7 +48,7 @@
 	-webkit-transform: rotate(45deg);
 }
 
-#adContent {
+#bannerContent {
 	position: absolute;
 	left: 50px;
 	top: 0;
@@ -57,7 +57,7 @@
 	text-align: center;
 }
 
-#adLinkWrapper {
+#bannerLinkWrapper {
 	position: absolute;
 	left: 50px;
 	top: 250px;
@@ -65,7 +65,7 @@
 	height: 50px;
 }
 
-#adLink {
+#bannerLink {
 	background: #829d8a;
 	display: block;
 	margin: 5px;
@@ -78,6 +78,6 @@
 	transition: background 400ms;
 }
 
-#adLink:hover {
+#bannerLink:hover {
 	background: #838c8f;
 }
