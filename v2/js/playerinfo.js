@@ -126,7 +126,7 @@ for (i = 0; i < x.length; i++) {
 }
 
 //Naydo99
-var isaac = "Naydog99";
+var isaac = "Naydo99";
 
 var x = document.getElementsByClassName("isaacName");
 var i;
@@ -155,7 +155,7 @@ for (i = 0; i < x.length; i++) {
 }
 
 //Wh1ppy
-var ryan = "Wh1pDog";
+var ryan = "Wh1ppy";
 
 var x = document.getElementsByClassName("ryanName");
 var i;
@@ -615,7 +615,7 @@ for (i = 0; i < x.length; i++) {
 var x = document.getElementsByClassName("marioSocial");
 var i;
 for (i = 0; i < x.length; i++) {
-	x[i].innerHTML = "<a href='http://twitter.com/Mario2Sonic'><img src='" + level + "head/twitter.png'></a> <a href='http://youtube.com/raylfli'><img src='" + level + "head/youtube.png'></a>";
+	x[i].innerHTML = "<a href='http://twitter.com/Mario2Sonic'><img src='" + level + "head/twitter.png'></a> <a href='http://youtube.com/raylfli'><img src='" + level + "head/youtube.png'></a> <a href='http://twitch.tv/mario2sonic'><img src='" + level + "head/twitch.png'></a>";
 }
 
 //Boxa

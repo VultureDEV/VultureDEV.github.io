@@ -14,14 +14,15 @@
 			
 		<link type="text/css" rel="stylesheet" href="css/header.css">
 		<link type="text/css" rel="stylesheet" href="css/body.css">
-		<link type="text/css" rel="stylesheet" href="css/adspace.css">
-		<link type="text/css" rel="stylesheet" href="css/ads.css">
+		<link type="text/css" rel="stylesheet" href="css/bannerspace.css">
+		<link type="text/css" rel="stylesheet" href="css/banners.css">
 		<link type="text/css" rel="stylesheet" href="css/footer.css">
+		<link type="text/css" rel="stylesheet" href="css/hosting.css">
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/primary.js"></script>
-		<script src="js/adspace.js"></script>
-		<script src="js/ads.js" defer></script>
+		<script src="js/bannerspace.js"></script>
+		<script src="js/banners.js" defer></script>
 		<script>
 		var pageID = "hosting";
 		
@@ -40,23 +41,26 @@
 				<h2 id="h2">Hosting</h2>
 				<span class="center"><div class="divider" id="h2Divider"></div></span>
 				
-				<span class="center"><p>VultureSMP hosts its Minecraft, TeamSpeak, Web and Mail servers with Provision Host!</p></span>
+				<span class="center">
+					<p><img src="files/hosting/ph.png" alt="Provision Host Logo" class="provisionLogo"></p>
+					<p>VultureSMP hosts its Minecraft, TeamSpeak, Web and Mail servers with Provision Host!</p>
+				</span>
 				
 				<div class="divider"></div>
 				
-				<span class="center"><p>When purchasing a server from <a href="http://provisionhost.com" class="bodyLink">ProvisionHost.com</a>, use code "Harp3rBoy" for 5% off!</p></span>
+				<span class="center"><p>When purchasing a server from <a href="http://provisionhost.com" class="bodyLink">ProvisionHost.com</a>, use code "VultureSMP" for 5% off!</p></span>
 			</div>
 			
-			<div id="adSpace">
-				<div id="adSpaceDisplay" onclick="expandAd()" onmouseover="arrowHover()" onmouseout="arrowHoverOut()">
-					<div id="arrowTop" onclick="expandAd()" onmouseover="arrowHover()" onmouseout="arrowHoverOut()"></div>
-					<div id="arrowBottom" onclick="expandAd()" onmouseover="arrowHover()" onmouseout="arrowHoverOut()"></div>
+			<div id="bannerSpace">
+				<div id="bannerSpaceDisplay" onclick="expandBanner()" onmouseover="arrowHover()" onmouseout="arrowHoverOut()">
+					<div id="arrowTop" onclick="expandBanner()" onmouseover="arrowHover()" onmouseout="arrowHoverOut()"></div>
+					<div id="arrowBottom" onclick="expandBanner()" onmouseover="arrowHover()" onmouseout="arrowHoverOut()"></div>
 				</div>
 				
-				<div id="adContent">
+				<div id="bannerContent">
 				</div>
-				<div id="adLinkWrapper">
-					<a id="adLink" href="#">> More</a>
+				<div id="bannerLinkWrapper">
+					<a id="bannerLink" href="#">> More</a>
 				</div>
 			</div>
 			<footer id="pageFooter">

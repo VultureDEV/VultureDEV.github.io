@@ -1,0 +1,31 @@
+img.playerHead {
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+	border: 3px solid transparent;
+	transition: border 400ms;
+}
+
+img.playerHead:hover {
+	opacity: 1;
+	border: 3px solid #829d8a;
+}
+
+.playerSocial {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	max-height: 50px;
+}
+
+.playerSocial > a > img {
+	height: 50px;
+	width: 50px;
+	border: 3px solid transparent;
+	transition: border-radius 400ms, border 400ms;
+}
+
+.playerSocial > a > img:hover {
+	border-radius: 20%;
+	border: 3px solid #829d8a;
+}
+	
