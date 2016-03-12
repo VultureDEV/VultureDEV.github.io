@@ -28,3 +28,12 @@ img.twitterBanner {
 p.twitterBanner {
 	font-size: 18px;
 }
+
+img.playlistBanner {
+	width: 60%;
+	margin-top: 30px;
+}
+
+p.playlistBanner {
+	font-size: 22px;
+}
