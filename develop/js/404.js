@@ -1,0 +1,3 @@
+document.getElementById("pageFooter").innerHTML = "<p>&copy VultureSMP, 2015 | Website design, code and media property of <a href='mailto:contact@vulturesmp.com?subject=Enquiry%20from%20website' title='Mail VultureSMP'>VultureSMP</a> | Designed and written by <a href='mailto:calebs2500@gmail.com?subject=Enquiry%20from%20vulturesmp.com' title='Mail Caleb Stewart'>Caleb Stewart</a></p>";
+
+document.getElementById("requestedURL").innerHTML = window.location.href;

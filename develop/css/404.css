@@ -1,0 +1,60 @@
+body {
+	background: url(../head/background.jpg);
+	margin: 0px;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+p, .logo {
+	user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.wrapper {
+	margin-top: 20vh;
+}
+
+.logo {
+	width: 120px;
+}
+
+p {
+	margin: 20px 0;
+}
+
+.heading {
+	font-weight: 200;
+	font-size: 50px;
+	cursor: default;
+}
+
+.subHeading {
+	font-weight: 200;
+	font-size: 18px;
+	cursor: default;
+}
+
+#requestedURL {
+	color: #829d8a;
+}
+
+.button {
+	cursor: pointer;
+	padding: 12px 20px;
+	color: white;
+	font-size: 15px;
+	background: #829d8a;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-left: 5px;
+	transition: background 400ms;
+}
+
+.button:hover {
+	background: #838c8f;
+}
