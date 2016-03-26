@@ -209,7 +209,7 @@ for (i = 0; i < x.length; i++) {
 var x = document.getElementsByClassName("mineySocial");
 var i;
 for (i = 0; i < x.length; i++) {
-	x[i].innerHTML = "<a href='http://twitter.com/minecrafter418'><img src='" + level + "head/twitter.png'></a> <a href='http://youtube.com/minecrafter41801'><img src='" + level + "head/youtube.png'></a>";
+	x[i].innerHTML = "<a href='http://twitter.com/MC418_'><img src='" + level + "head/twitter.png'></a> <a href='http://youtube.com/minecrafter41801'><img src='" + level + "head/youtube.png'></a>";
 }
 
 //iDontGlow
