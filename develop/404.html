@@ -8,21 +8,35 @@
 		<meta charset="UTF-8">
 
 		<title>VultureSMP | 404</title>
-		<link type="image/png" rel="icon" href="head/favicon.png">
-
-		<link type="text/css" rel="stylesheet" href="css/footer.css">
-		<link type="text/css" rel="stylesheet" href="css/404.css">
+		<link type="image/png" rel="icon" href="http://vulturesmp.com/head/favicon.png">
+		
+		<link id="CSS1" type="text/css" rel="stylesheet" href="http://vulturesmp.com/css/footer.css">
+		<link id="CSS2" type="text/css" rel="stylesheet" href="http://vulturesmp.com/css/404.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
-		<script src="js/404.js" defer></script>
+		<script id="JS" src="http://vulturesmp.com/js/404.js" defer></script>
+		<script>
+			//var host = window.location.hostname;
+			//var host = "vulturesmp.com"; //Debug Only
+			//$("link[id='CSS1']").attr('href', 'http://' + host + '/css/footer.css');
+			//$("link[id='CSS2']").attr('href', 'http://' + host + '/css/404.css');
+			//$("script[id='JS']").attr('src', 'http://' + host + '/js/404.js');
+			
+		</script>
 	</head>
 
 	<body>
 		<div class="center wrapper">
-			<img class="logo" src="head/logo.png" alt="VultureSMP Logo" draggable="false">
+			<img id="logo" class="logo" src="http://vulturesmp.com/head/logo.png" alt="VultureSMP Logo" draggable="false">
 			<p class="heading">Woah! We weren't expecting you here!</p>
 			<p class="subHeading">Error 404: The requested page, <span id="requestedURL">Loading...</span>, does not exist.</p>
-			<p><a onclick="history.go(-1);" class="button">Go Back</a><a href="index.html" class="button">Go Home</a>
+			<p><a onclick="history.go(-1);" class="button">Go Back</a><a href="http://vulturesmp.com" class="button">Go Home</a>
 		</div>
+		
+		<script>
+			//document.getElementById("logo").src = 'http://' + host + '/head/logo.png';
+			//document.getElementById("home").href = 'https://' + host;
+		</script>
 
 		<footer id="pageFooter">
 		</footer>
